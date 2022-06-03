@@ -23,6 +23,11 @@
     background-color: #111;
 }
 
+.navbar ul li .rightalign {
+    position: absolute;
+    right: 0;
+}
+
 .recipelist ul{
     list-style-type: none;
     margin: 10;
