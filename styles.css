@@ -1,10 +1,18 @@
 /* Navbar Components */
 
+.navbar {
+    width: 110%;
+    margin: -10px;
+    padding: 0;
+    border: 0;
+}
+
 .navbar ul {
     width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 0;
     overflow: hidden;
     background-color: #333;
 }
@@ -40,6 +48,46 @@
     width: 300px;
 }
 
+.landingcontainer {
+    margin-top: 30px;
+    overflow: auto;
+    background-color: #333;
+    border: 5px solid #333;
+}
+
+.leftlist, .rightlist {
+    width: 39%;
+    height: auto;
+    padding: 5%;
+    list-style-type: none;
+}
+
+.leftlist li, .rightlist li{
+    font-size: 3vw;
+    margin-top: 2px;
+    padding: 10%;
+    text-align: center;
+}
+
+.leftlist li a, .rightlist li a{
+    text-decoration: none;
+    color: white;
+}
+
+.leftlist li a:hover, .rightlist li a:hover{
+    color: #111;
+}
+
+.leftlist {
+    float: left;
+}
+
+.rightlist {
+    float: right;
+}
+
+
+
 /* Recipe Pages */
 
 .recipename {
@@ -62,7 +110,7 @@
 
 .ingredientslist {
     float: left;
-    margin: 10px;
+    margin: 5%;
 }
 
 
