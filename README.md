@@ -1,6 +1,8 @@
 # odin-recipes
 Recipes Project - TOP
 
+Link to live preview:
+https://enzosromano.github.io/odin-recipes/ 
 
 This project was intended as a hands on introduction to basic HTML. 
 It consists of a simple 3 paged website and includes some lists, headings and images.
