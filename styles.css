@@ -23,6 +23,9 @@ body {
 
 .navbar ul li {
     float: left;
+    display: inline;
+    vertical-align: middle;
+    line-height: 3vw;
     font-size: 4vw;
 }
 
@@ -41,6 +44,7 @@ body {
 .navbar ul li .navabout {
     position: absolute;
     right: 0;
+    font-size: 2vw;
 }
 
 /* Landing Page */
