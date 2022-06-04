@@ -96,13 +96,16 @@ body {
 }
 
 .leftlist li, .rightlist li{
-    font-size: 3vw;
+    font-size: 1vw;
+    color: white;
     margin-top: 2px;
     padding: 10%;
     text-align: center;
+    border: 5px solid #111;
 }
 
 .leftlist li a, .rightlist li a{
+    font-size: 3vw;
     text-decoration: none;
     color: white;
 }
