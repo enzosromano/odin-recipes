@@ -7,7 +7,10 @@ body {
 .flexbar {
     background-color: #333;
     display: flex;
-    height: 5vw;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    width: 100%;
     -webkit-justify-content: flex-end;
     align-items: flex-end;
     -webkit-align-items: flex-end;
@@ -15,6 +18,14 @@ body {
     justify-content: center;
     align-items: center;
     */
+}
+
+@media (max-width: 500px) {
+
+    .flexbar {
+          height: 4vh;
+     }
+
 }
 
 .flexleft, .flexright{
