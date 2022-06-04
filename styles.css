@@ -2,49 +2,47 @@ body {
     margin: 0;
 }
 
-/* Navbar Components */
+/* Navbar Flexboxes */
 
-.navbar {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-.navbar ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
+.flexbar {
     background-color: #333;
+    display: flex;
+    /* 
+    justify-content: center;
+    align-items: center;
+    */
 }
 
-.navbar ul li {
-    float: left;
-    display: inline;
-    vertical-align: middle;
-    line-height: 3vw;
-    font-size: 4vw;
-}
-
-.navbar ul li a {
-    display: block;
+.flexleft, .flexright{
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    display: flex;
+    flex: 1;
+}
+
+.flexright {
+    justify-content: right;
+    align-items: center;
+}
+
+.flexleft a, .flexright a {
     text-decoration: none;
+    font-size: 100px;
+    color: white;
+    align-self: center;
 }
 
-.navbar ul li a:hover {
-    background-color: #111;
+.flexright a, .flexright img {
+    float: right;
+    margin: 1%;
 }
 
-.navbar ul li .navabout {
-    position: absolute;
-    right: 0;
-    font-size: 2vw;
+.flexright a {
+    font-size: 3vw;
+}
+
+.flexright img {
+    width: 3vw;
+    height: auto;
 }
 
 /* Landing Page */
