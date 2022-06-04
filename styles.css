@@ -65,6 +65,11 @@ body {
     .flexright a {
         font-size: 5vw;
     }
+
+    .flexright img {
+        width: 6vw;
+        height: auto;
+    }
 }
 
 /* Landing Page */
