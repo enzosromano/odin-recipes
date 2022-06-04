@@ -7,7 +7,7 @@ body {
 .flexbar {
     background-color: #333;
     display: flex;
-    height: 12%;
+    height: 14%;
     position: sticky;
     top: 0;
     width: 100%;
@@ -55,7 +55,7 @@ body {
 @media (max-width: 650px) {
 
     .flexbar {
-          height: 4vh;
+          height: 15%;
     }
 
     .flexleft a {
@@ -108,7 +108,7 @@ body {
 }
 
 .leftlist li a:hover, .rightlist li a:hover{
-    color: #111;
+    color: grey;
 }
 
 .leftlist {
