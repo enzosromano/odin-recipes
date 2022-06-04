@@ -110,6 +110,18 @@ body {
     color: white;
 }
 
+@media (max-width: 650px) {
+
+    .leftlist li, .rightlist li {
+        font-size: 2vw;
+    }
+
+    .leftlist li a, .rightlist li a {
+        font-size: 4vw;
+    }
+
+}
+
 .leftlist li a:hover, .rightlist li a:hover{
     color: grey;
 }
